@@ -1,0 +1,24 @@
+model: ResNetSE34V2
+encoder_type: ASP
+log_input: True
+trainfunc: softmaxproto
+batch_size : 220
+nPerSpeaker: 3 # Do not change for triplet data configuration
+
+n_mels: 64
+
+nOut: 512
+
+
+
+spk_dims  : 512
+env_dims  : 512
+disc_dims : 512
+disc_out_dims : 512
+
+adv_alpha : 0.5
+disc_iteration : 5
+
+lr_decay: 0.75
+lr_decay_interval: 16
+lr_decay_start : 0
