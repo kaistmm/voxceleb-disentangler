@@ -60,7 +60,7 @@ Note that the configuration file overrides the arguments passed via command line
 
 ### Pretrained models
 
-A pretrained model of `ResNetSE34V2`, can be downloaded from [here](https://github.com/DevKiHyun/voxceleb_disentangler/raw/main/pretrained/baseline_resnetse34V2_de.model).
+A pretrained model of `ResNetSE34V2`, can be downloaded from [here](https://github.com/kaistmm/voxceleb-disentangler/raw/main/pretrained/baseline_resnetse34V2_de.model).
 
 The following script should return: (EER, %) `Vox1-O : 0.8457`,  `VoxSRC22 : 3.0123`, `VoxSRC23 : 5.4046`.
 
@@ -70,7 +70,7 @@ You will be given an option to save the scores.
 python ./trainSpeakerNet.py --eval --config ./configs/ResNetSE34V2_SFAP_AE.yaml --initial_model pretrained/baseline_resnetse34V2_de.model --save_path exps/test --eval_frames 400
 ```
 
-A pretrained model of `ECAPA_TDNN`, can be downloaded from [here](https://github.com/DevKiHyun/voxceleb_disentangler/raw/main/pretrained/baseline_ecapatdnn_de.model).
+A pretrained model of `ECAPA_TDNN`, can be downloaded from [here](https://github.com/kaistmm/voxceleb-disentangler/raw/main/pretrained/baseline_ecapatdnn_de.model).
 
 The following script should return: (EER, %) `Vox1-O : 0.8188`,  `VoxSRC22 : 3.0814`, `VoxSRC23 : 5.7594`.
 
